@@ -13,7 +13,7 @@ class Circle{
         double arcircle = 3.14*radius*radius;
         return arcircle;
     }
-    public double set_width(double width){
+    public double setwidth(double width){
         System.out.println("Width: ");
         double w1 = width;
         return w1;
@@ -32,8 +32,6 @@ class Circle{
 class Cylinder extends Circle{
     double height;
     public double Volume(double height, double arcircle){
-       //double x=super.area(3.5);
-      // area();
         System.out.println("Vol of cylinder: ");
         double volume = arcircle*height;
         return volume;
