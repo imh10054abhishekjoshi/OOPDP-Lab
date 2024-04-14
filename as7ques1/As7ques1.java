@@ -32,10 +32,6 @@ class Box extends Rectangle{
 public class As7ques1 {
 
     public static void main(String[] args) {
-    // Scanner scanner = new Scanner(System.in);
-    // length = scanner.nextInt();
-    // width = scanner.nextInt();
-     //height = scanner.nextInt();
      shape s1 = new shape();
      int x,y;
      s1.getArea(0);
